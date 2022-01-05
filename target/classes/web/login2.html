@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+    <script src="https://kit.fontawesome.com/23b2dd937e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+
+    
+
+    <style>
+        body{
+            background: url('login.img.webp') no-repeat center center fixed;
+
+background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+margin: 0; /* to remove the default white margin of body */
+padding: 0; /* to remove the default white margin of body */
+overflow: hidden;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+     
+    <div id="main_div">
+        <!--login form-->
+        <dive id="everythingdiv"> 
+            <div id="title">
+                <p style="color:white">Please LOGIN</p>
+            </div> <br><br>
+            <div id="formdiv">
+                <form action="login" method="post" id= "form1">
+                    <!--username-->
+                    <div class="input_box">
+                        <input type="text" name="username" placeholder="Username">
+                        <div class='icon'><i class="fas fa-user" style="color:rgb(132, 167, 173);"></i></div>
+                    </div><br>
+                    <div class="input_box">
+                        <!--password-->
+                        <input type="password" name="password" placeholder="************">
+                        <div class='icon'><i class="fas fa-unlock-alt" style="color:rgb(132, 167, 173);"></i></div> 
+                    </div>
+                    <br><br>
+                    
+                   
+                    <div id="logdiv">
+                        <button type="submit" id="login" name="login" style="border: none; font-size: 20px;background-color:rgb(132, 167, 173); color:white;" value="login"> LOGIN</button>
+                    </div> <br><br><br>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

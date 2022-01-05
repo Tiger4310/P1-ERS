@@ -1,0 +1,102 @@
+#title{
+            position:relative;
+            margin: auto;
+            width: 330px;
+            height: 30px;
+            background-color: rgb(132, 167, 173);
+            font-size: 19pt;
+            text-align: center;
+
+            padding-top:0.001em ;
+            padding-bottom:1.7em ;
+            padding-left: 1em;
+            padding-right: 1em;
+         
+
+            
+            
+        }
+        #everythingdiv{
+            background-color: white; 
+            position:absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 380px;
+            height: 502px; 
+            box-shadow: 20px 20px 30px rgb(132, 167, 173);
+            border-radius: 25pt;
+            
+        }
+        #formdiv{
+            position:relative;
+            margin: auto;
+            top: 0;
+            width: 350px;
+            height: 50px;
+            text-align: center;
+            text-size-adjust: 255pt;
+        }
+        #login{
+            margin-top:0.5em ;
+            
+        }
+        #logdiv{
+            position:relative;
+            margin: auto;
+            top: 0;
+            width: 145px;
+            height: 45px;
+            background-color: rgb(132, 167, 173);
+            text-size-adjust: 255pt;
+            border-radius: 25px;
+    
+        }
+        #Signup{
+            background-color: rgb(132, 167, 173);
+            position:absolute;
+            width: 330px;
+            height: 10px;
+            font-size: 14pt;
+            text-align: left;
+            padding-top:0.001em ;
+            padding-bottom:2.3em ;
+            padding-left: 1em;
+            padding-right:0em;     
+            border-radius: 25%;       
+        }
+        
+        form .input_box{
+            height: 50px;
+            width: 80%;
+            position: relative;
+            margin-top: 15px;
+        }
+        .input_box input{
+            height: 100%;
+            width: 100%;
+            outline:none;
+            font-size: 17px;
+            padding-left: 25px;
+            border:none; 
+            border-bottom: 3px solid #ccc;
+            margin: 0px 30px;
+            font-size: 17px;
+        }
+        .input_box .icon{
+            position:absolute;
+            top: 10%;
+            left:30px;
+            color:rgb(132, 167, 173);
+            transform:translateY(50%)
+        }
+        #header{
+            position:relative;
+            top: 15px;;
+        }
+        .link {
+            color: white;
+            text-decoration: none;
+        }

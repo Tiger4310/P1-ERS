@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table Page</title>
+    
+	<script src="/js/employeeRiembursement.js"></script>
+	<link rel="stylesheet" href="allrequests.css">
+    <style>
+       
+        body{
+            background: url('money-2724241_1280.webp') no-repeat center center fixed;
+
+background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+margin: 0; /* to remove the default white margin of body */
+padding: 0; /* to remove the default white margin of body */
+overflow: hidden;
+        }
+        
+   
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <a class="link" href="managerHomePage.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <a class="link" href="login.html">LOGOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+    </header>
+    <div class="main_div">
+        <div class="titleName" style="color:white; box-shadow: 2px 2px 20px 2px rgb(28, 85, 28);">All ticket requests</div> <br><br>
+       
+        <table border="3" style="border-color: rgb(36, 168, 53);">
+            <caption  style="font-size: 16pt; caption-side: bottom; color:rgb(36, 168, 53)">Form Table</caption> 
+            <thead bord>
+                <tr>
+                    <td  name="Reimbursement_id" style="padding-left:49px; padding-right:49px">
+                        Id
+                    </td>
+                    <td style="padding-left:18px; padding-right:18px">
+                        Author_Id
+                    </td>
+                    <td style="padding-left:11px; padding-right:11px">
+                        Resolver_Id
+                    </td>
+                    <td name="Reimbursement_type "style="padding-left:39px; padding-right:39px">
+                        Type
+                    </td>
+                    <td style="padding-left:30px; padding-right:30px">
+                        Amount
+                    </td>
+                    <td style="padding-left:19px; padding-right:19px">
+                        Description
+                    </td>
+                    <td style="padding-left:8px; padding-right:8px">
+                        Submit_Time
+                    </td>
+                    <td style="padding-left:8px; padding-right:8px">
+                        Resolve_Time
+                    </td>
+                    <td style="padding-left:18px; padding-right:18px">
+                        Status
+                    </td>
+                    <td style="padding-left:28px; padding-right:28px">
+                        Accepted
+                    </td>
+                </tr>
+            </thead>
+            <tbody id="tableBody"> 
+            </tbody >
+        </table><br>
+        <p style="font-size: 18px;color:rgb(36, 168, 53);">Filter the requests by:</p>
+        <a  href="pendingrequest.html" style=" text-decoration: none;background-color:rgb(36, 168, 53); border: solid; border-radius: 25px; border-color:rgb(36, 168, 53); font-size: 18px; padding: 5px;padding-left: 10px; color:rgb(246, 252, 246)">Pending Requests</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a  href="resolvedrequests.html" style=" text-decoration: none;background-color:rgb(36, 168, 53); border: solid; border-radius: 25px; border-color:rgb(36, 168, 53); font-size: 18px; padding: 5px;padding-left: 10px; color:rgb(245, 253, 246);">Resolved Requests</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+        <p style="font-size: 18px;color:rgb(36, 168, 53);">Enter the Id of the reimbursement you would like to view/approve/deny:</p>
+        
+        <form method="post" action="selectReimbursement">
+            <label style="border: solid; border-radius: 25px; background-color:rgb(36, 168, 53); border-color:rgb(36, 168, 53); font-size: 17px; padding: 5px;padding-left: 10px; color:rgb(230, 238, 231);">Select Reimbursement</label>
+            <input type="number" name="id"style="border: solid; border-radius: 25px; border-color:rgb(50, 57, 137); font-size: 10px; padding: 5px;">
+        </form >
+    </div>

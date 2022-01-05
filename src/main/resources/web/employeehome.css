@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  #header{
+    position:relative;
+    top: 15px;
+    color: rgb(14, 13, 13);
+}
+  body {
+
+    background: url('money-2724241_1280.webp') no-repeat center center fixed;
+    
+    background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+    margin: 0; /* to remove the default white margin of body */
+    padding: 0; /* to remove the default white margin of body */
+    overflow: hidden;
+         }
+  h2,
+  h3 {
+     text-align: center;
+     color:rgb(19, 17, 17);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      Font-size: 1.5em;
+             
+         }
+
+  .btn{
+    border-radius: 40px;
+    border: 0;
+    font-size: 2;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .btn--primary {
+
+    background: rgb(24, 131, 24) ;
+    color: white;
+
+  }
+  .btn--primary:hover {
+    background: rgb(24, 105, 21);
+  }
+
+  .btn--secondary {
+    background: rgb(24, 131, 24) ;
+    color: white;
+  }
+
+  .btn--secondary:hover {
+    background: rgb(24, 105, 21);
+  }
+
+  .logout{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: white;
+    padding: 4px;
+    color: rgb(14, 13, 13);
+    font-size: 1em;
+  }

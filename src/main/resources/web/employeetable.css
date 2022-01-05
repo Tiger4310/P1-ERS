@@ -1,0 +1,49 @@
+.main_div{
+
+    position:absolute;
+    margin: auto;
+    top:20px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width:1098px;
+    height: 450px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 30px rgb(36, 168, 53);
+}
+.title{
+    position:relative;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    height: 3px;
+    background-color: rgb(36, 168, 53);
+    font-size: 19pt;
+   
+    
+
+    padding-top:1em ;
+    padding-bottom:1.7em ;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+table{
+    margin-top: 60px;
+    
+}
+td{
+    padding-top: 30px;
+    
+}
+#parent{
+    position:relative;
+    top: 15px;;
+}
+.link {
+    color: white;
+    text-decoration: none;
+}

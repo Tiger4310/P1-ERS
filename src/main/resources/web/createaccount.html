@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup Page</title>
+    <script src="https://kit.fontawesome.com/23b2dd937e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="createaccount.css">
+<style>
+body{
+    background: url('archive-1850170_1280.jpg') no-repeat center center fixed;
+
+background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+margin: 0; /* to remove the default white margin of body */
+padding: 0; /* to remove the default white margin of body */
+overflow: hidden;
+}
+</style>
+
+    
+</head>
+<body>
+    <header>
+        <div id="parent">
+            
+
+        </div>
+    </header>
+    <div class="main_div">
+        <div class="title" style="color:white">CREATE ACCOUNT</div> <br><br>
+        <form action="login.html" method="post" id= "form1">
+           
+            <div class="input_box">
+                <input type="text" name="username" placeholder="Username">
+                <div class='icon'><i class="fas fa-user" style="color:gray;"></i></div>
+            </div>
+            <div class="input_box">
+         
+                <input type="password" name="password" placeholder="************">
+                <div class='icon'><i class="fas fa-unlock-alt" style="color:gray"></i></div> 
+            </div>
+            <div class="input_box">
+                <input type="text" name="firstname" placeholder="First Name">
+                <div class='icon'><i class="fas fa-user" style="color:gray;"></i></div>
+            </div>
+            <div class="input_box">
+                <input type="text" name="lastname" placeholder="Last Name">
+                <div class='icon'><i class="fas fa-user" style="color:gray;"></i></div>
+            </div>
+            <div class="input_box">
+                <input type="text" name="email" placeholder="email@gmail.com">
+                <div class='icon'><i class="fas fa-envelope" style="color: gray;"></i></div>
+            </div>
+            <div class="input_box">
+                <input type="text" name="id" placeholder="User ID">
+                <div class='icon'><i class="fas fa-user" style="color:gray;"></i></div>
+            </div>
+            <br><br>
+            <div class="role">
+                <label for="employee" style="color:gray">Employee</label>
+                <input type="radio" name="role" value="employee" id="employee"> 
+                <label for="manager" style="color:gray" >Manager </label> 
+                <input type="radio" name="role" value="manager" id="manager"><br><br><br>
+            </div><br>
+			<form method="get" action="login.html">
+                <button type="submit" value="Submit" name="Submit" style="border: none; font-size: 20px;background-color:rgb(132, 167, 173); color:white; font-size: 18pt;padding-top: 8pt;" value="login"> Submit</button>
+            </div>
+			</form>
+             <br><b></b>
+            
+        </form >
+    </div>
+</body>
+</html>

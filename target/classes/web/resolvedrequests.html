@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table Page</title>
+   
+	<script src="/js/getPendingReimbursement.js"></script>
+	
+    <style>
+        body{
+            background-image: url('money-2724241_1280.webp');
+            background-color: rgb(36, 168, 53);
+        }
+        .main_div{
+
+            position:absolute;
+            margin: auto;
+            top:1px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+
+            width:1110px;
+            height: 500px;
+            border: solid;
+            border-color: rgb(36, 168, 53) ;
+            background-color: white;
+            padding: 30px;
+            border-radius: 30px;
+            box-shadow: 20px 20px 30px rgb(36, 168, 53);
+        }
+        .titleName{
+            position:relative;
+            text-align: center;
+            margin: auto;
+            width: 500px;
+            height: 3px;
+            background-color: rgb(36, 168, 53);
+            font-size: 19pt;
+            border: solid;
+            border-color: rgb(36, 168, 53) ;
+            border-radius: 25px;
+            
+
+            padding-top:1em ;
+            padding-bottom:1.7em ;
+            padding-left: 1em;
+            padding-right: 1em;
+            
+        }
+        table{
+            margin-top: 1px;
+            
+        }
+        td{
+            padding-top: 5px;
+            
+        }
+        #header{
+            position:relative;
+            top: 15px;;
+        }
+        .link {
+            color: rgb(19, 18, 18);
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <a class="link" href="allRequests.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="link" href="login.html">LOGOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+    </header>
+    <div class="main_div">
+        <div class="titleName" style="color:white; box-shadow: 2px 2px 20px 2px rgb(36, 168, 53);">ALL PENDING REQUESTS</div> <br><br>
+       
+        <table border="3" style="border-color: rgb(36, 168, 53); box-shadow: 2px 2px 20px 2px rgb(36, 168, 53);">
+            <caption style="font-size: 16pt; caption-side: bottom; color:rgb(36, 168, 53)">Reimbursement Table</caption> 
+            <thead bord>
+                <tr>
+                    <td  name="Reimbursement_id" style="padding-left:49px; padding-right:49px">
+                        Id
+                    </td>
+                    <td style="padding-left:18px; padding-right:18px">
+                        Author Id
+                    </td>
+                    <td style="padding-left:11px; padding-right:11px">
+                        Resolver Id
+                    </td>
+                    <td name="Reimbursement_type "style="padding-left:39px; padding-right:39px">
+                        Type
+                    </td>
+                    <td style="padding-left:30px; padding-right:30px">
+                        Amount
+                    </td>
+                    <td style="padding-left:19px; padding-right:19px">
+                        Description
+                    </td>
+                    <td style="padding-left:8px; padding-right:8px">
+                        Submit Time
+                    </td>
+                    <td style="padding-left:8px; padding-right:8px">
+                        Resolve Time
+                    </td>
+                    <td style="padding-left:18px; padding-right:18px">
+                        Status
+                    </td>
+                    <td style="padding-left:28px; padding-right:28px">
+                        Accepted
+                    </td>
+                </tr>
+            </thead>
+            <tbody id="tableBody"> 
+            </tbody >
+        </table><br>
+        <p style="font-size: 18px;color:rgb(36, 168, 53);">Filter the requests by:</p>
+        <a  href="pendingrequest.html" style=" text-decoration: none;background-color:rgb(36, 168, 53); border: solid; border-radius: 25px; border-color:rgb(36, 168, 53); font-size: 18px; padding: 5px;padding-left: 10px; color:rgb(10, 10, 10);">Pending Requests</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a  href="resolvedrequests.html" style=" text-decoration: none;background-color:rgb(36, 168, 53); border: solid; border-radius: 25px; border-color:rgb(36, 168, 53); font-size: 18px; padding: 5px;padding-left: 10px; color:rgb(7, 7, 7);">Resolved Requests</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+        <a  href="allrequests.html" style=" text-decoration: none;background-color:rgb(36, 168, 53); border: solid; border-radius: 25px; border-color:rgb(36, 168, 53); font-size: 18px; padding: 5px;padding-left: 10px; color:rgb(8, 8, 8);">All Requests</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <p style="font-size: 18px;color:rgb(36, 168, 53);">Enter the Id of the reimbursement you would like to view/approve/deny:</p>
+        <form>
+            <label style="border: solid; border-radius: 25px; border-color:rgb(36, 168, 53); font-size: 17px; padding: 5px;padding-left: 10px; color:rgb(12, 11, 12);">Select Reimbursement</label>
+            <input type="number" name="reim", value="Id" style="border: solid; border-radius: 25px; border-color:rgb(36, 168, 53); font-size: 10px; padding: 5px;">
+        </form>
+    </div>
+</body>
+</html>

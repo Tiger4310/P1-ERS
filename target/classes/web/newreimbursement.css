@@ -1,0 +1,58 @@
+#header{
+    position:relative;
+    top: 15px;;
+}
+.link {
+    color: white;
+    text-decoration: none;
+}
+h2{
+    color:black;
+}
+.main_div{
+
+    position:absolute;
+    margin: auto;
+    top: 30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 700px;
+    height: 530px;
+    background-color: white;
+    padding: 30px;
+    border: solid;
+    border-color: rgb(76, 112, 163);;
+    border-radius: 5px;
+    box-shadow: 20px 20px 30px rgb(76, 112, 163);
+    border-radius: 25pt;
+}
+.title{
+    position:relative;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    height: 10px;
+    background-color: rgb(76, 112, 163);
+    font-size: 19pt;
+    
+    border-radius: 25px;
+    padding-top:1em ;
+    padding-bottom:1.7em ;
+    padding-left: 1em;
+    padding-right: 1em;   
+}
+form{
+    position:relative;
+    margin: auto;
+    top: 0;
+    width: 60%;
+    height: 45px;
+    text-size-adjust: 255pt;
+    color:rgb(76, 112, 163);
+
+}
+.form{
+    font-size: 20px;
+}

@@ -1,0 +1,90 @@
+
+
+.main_div{
+
+    position:absolute;
+    margin: auto;
+    top: 30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 365px;
+    height: 530px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+  
+    border-radius: 25pt;
+}
+.title{
+    position:relative;
+    text-align: center;
+    margin: auto;
+    width: 330px;
+    height: 10px;
+    background-color: rgb(132, 167, 173);
+    font-size: 19pt;
+    
+
+    padding-top:1em ;
+    padding-bottom:1.7em ;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    
+    
+}
+form .input_box{
+    height: 50px;
+    width: 90%;
+    position: relative;
+    margin-top: 8px;
+}
+.input_box input{
+    height: 100%;
+    width: 100%;
+    outline:none;
+    font-size: 17px;
+    padding-left: 25px;
+    border:none; 
+    border-bottom: 3px solid #ccc;
+    margin: 0px 30px;
+    font-size: 17px;
+}
+.input_box .icon{
+    position:absolute;
+    top: 10%;
+    left:30px;
+    color:gray;
+    transform:translateY(50%)
+}
+form .role{
+    position:relative;
+    margin: auto;
+    width: 330px;
+    height: 30px;
+
+    font-size: 17pt;
+    text-align: center;
+   
+}
+#logdiv{
+    position:relative;
+    text-align: center;
+    margin: auto;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(132, 167, 173);
+    text-size-adjust: 255pt;
+
+}
+#parent{
+    position:relative;
+    top: 15px;;
+}
+.link {
+    color: white;
+    text-decoration: none;
+}

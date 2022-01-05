@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>New Reimbursement</title>
+    <style>
+   
+        body{
+            background-image: url('money-2724241_1280.webp');
+            background-color: rgb(36, 168, 53);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <a class="link" href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="link" href="login.html">LOGOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+    </header>
+    <h2>Please fill out the Form Below</h2>
+    <div class="main_div">
+        <form action="newReimbursement" method="post"id= "form">
+            <div class="form">
+                
+                <label for="type" style="font-size: 25px;">Type:</label><br>
+
+                <label for="food" >Food</label>
+                <input type="radio" name="type" value="food">
+
+                <label for="travel" >Travel</label> 
+                <input type="radio" name="type" value="travel">
+                
+                <label for="lodging" >Equipment</label> 
+                <input type="radio" name="type" value="lodging">
+                <label for="other">Other</label> 
+                <input type="radio" name="type" value="other"><br><br>
+
+            
+                <label for="amount" style="font-size: 25px;
+                ">Amount:</label><br> 
+
+                <input type="text" name="amount"><br><br>
+
+                <label for="description" style="font-size: 25px;" >Description:</label><br>
+                <textarea name="description" rows="5" cols="20"></textarea>
+            </div><br><br>
+            <form method="get" action="employeehome.html">
+                <button type="submit" value="Submit" name="Submit" style="border: none; font-size: 20px;background-color:rgb(132, 167, 173); color:white; font-size: 18pt;padding-top: 8pt;" value="Submit"> Submit</button>
+            <br><b></b>
+        </form>
+    </div>
+</body>
+</html>

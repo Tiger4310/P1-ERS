@@ -1,0 +1,53 @@
+#header{
+    position:relative;
+    top: 15px;;
+}
+.link {
+    color: white;
+    text-decoration: none;
+}
+#data{
+    position: relative;
+    text-align: center;
+    top:60px;
+    bottom: 0;
+    left:200px;
+
+    width:780px;
+    height: 515px;
+    border: solid;
+    border-color: rgb(36, 168, 53) ;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 30px rgb(36, 168, 53);
+    color:rgb(36, 168, 53) ;
+}
+#table{
+    position: relative;
+    text-align: center;
+    margin-top: 25px;
+}
+#td{
+    padding-top: 25px;
+    
+}
+#titleName{
+    position:relative;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    height: 3px;
+    background-color: rgb(36, 168, 53);
+    font-size: 19pt;
+    border: solid;
+    border-color: rgb(36, 168, 53) ;
+    border-radius: 25px;
+    
+
+    padding-top:1em ;
+    padding-bottom:1.7em ;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}

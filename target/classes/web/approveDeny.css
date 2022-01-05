@@ -1,0 +1,51 @@
+.main_div{
+
+    position:absolute;
+    margin: auto;
+    top:1px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width:1110px;
+    height: 515px;
+    border: solid;
+    border-color: rgb(36, 168, 53) ;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 30px rgb(36, 168, 53);
+}
+.titleName{
+    position:relative;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    height: 3px;
+    background-color: rgb(36, 168, 53);
+    font-size: 19pt;
+    border: solid;
+    border-color: rgb(36, 168, 53) ;
+    border-radius: 25px;
+    padding-top:1em ;
+    padding-bottom:1.7em ;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+table{
+    margin-top: 40px;
+    
+}
+td{
+    padding-top: 30px;
+    
+}
+#header{
+    position:relative;
+    top: 15px;;
+}
+.link {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+}
